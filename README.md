@@ -40,10 +40,11 @@ weighted avg  0.95        0.95     0.95       2485
 ```
 
 ### Confusion Matrix
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 ### Precision-Recall Curve
-![Precision-Recall Curve](precision_recall_curve.png)
+![Precision-Recall Curve](images/precision_recall_curve.png)
+
 Best Threshold for F1-Score: **0.2982**
 
 ## Dataset Summary
