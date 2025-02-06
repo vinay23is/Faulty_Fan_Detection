@@ -40,11 +40,13 @@ weighted avg  0.95        0.95     0.95       2485
 ```
 
 ### Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
+```
+                Predicted Normal    Predicted Anomaly
+Actual Normal        1271                 74
+Actual Anomaly        43                 1097
+```
 
 ### Precision-Recall Curve
-![Precision-Recall Curve](images/precision_recall_curve.png)
-
 Best Threshold for F1-Score: **0.2982**
 
 ## Dataset Summary
@@ -77,6 +79,7 @@ Total MACs: 77856.5
 - /model             # ML Training and TFLite Model
 - /data/normal       # Placeholder for normal fan sound data
 - /data/anomalous    # Placeholder for anomalous fan sound data
+- /images            # Folder for model performance images
 - README.md          # Documentation
 ```
 
@@ -93,4 +96,3 @@ Total MACs: 77856.5
 
 ## Contributors
 - Vinay Dodla
-  
